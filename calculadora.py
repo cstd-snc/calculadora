@@ -10,7 +10,7 @@ class Calculadora(ctk.CTk):
 
         # Configurações da janela
         self.title("Calculadora CTK")
-        self.geometry("360x520")
+        self.geometry("520x520")
         self.resizable(False, False)
 
         # Variável para armazenar a expressão matemática
@@ -34,7 +34,7 @@ class Calculadora(ctk.CTk):
     def criar_botoes(self):
         # Grade de botões: (Texto, Linha, Coluna, Cor do botão)
         botoes = [
-            ('C', 1, 0, "#d9534f"), ('(', 1, 1, "#5bc0de"), (')', 1, 2, "#5bc0de"), ('/', 1, 3, "#f0ad4e"),
+            ('C', 1, 0, "#d9534f"), ('(', 1, 1, "#5bde92"), (')', 1, 2, "#5bc0de"), ('/', 1, 3, "#f0ad4e"),
             ('7', 2, 0, None),      ('8', 2, 1, None),      ('9', 2, 2, None),      ('*', 2, 3, "#f0ad4e"),
             ('4', 3, 0, None),      ('5', 3, 1, None),      ('6', 3, 2, None),      ('-', 3, 3, "#f0ad4e"),
             ('1', 4, 0, None),      ('2', 4, 1, None),      ('3', 4, 2, None),      ('+', 4, 3, "#f0ad4e"),
